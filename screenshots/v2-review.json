@@ -1,0 +1,62 @@
+{
+  "frozenFixedView": {
+    "pixels": 1440000,
+    "changedPixels": 0,
+    "maximumDifference": 0,
+    "meanAbsoluteError": 0
+  },
+  "pageErrors": [],
+  "snapshot": {
+    "ready": true,
+    "mode": "walk",
+    "location": "market",
+    "transitioning": false,
+    "position": [
+      0,
+      1.7600000000000002,
+      15.6
+    ],
+    "target": [
+      0,
+      1.8004320275993502,
+      14.600817708751698
+    ],
+    "renderer": {
+      "calls": 246,
+      "triangles": 1138825,
+      "frame": 652
+    },
+    "fps": 56,
+    "time": 0.42,
+    "asset": {
+      "buildings": 128,
+      "totalBuildings": 128,
+      "enterableBuildings": 123,
+      "courtyardGates": 66,
+      "doors": 188,
+      "residents": 60,
+      "residentBatches": 19,
+      "residentArchetypes": [
+        "行商",
+        "书生",
+        "坊民",
+        "襦裙女子",
+        "挑夫",
+        "孩童"
+      ],
+      "staticInstances": 14753,
+      "staticBatches": 267,
+      "palaceSource": "blender-glb",
+      "groundTiles": 238,
+      "overlappingRoadTiles": 0,
+      "interiorTypes": 6,
+      "reachableBuildings": 123,
+      "reachableOrdinaryBuildings": 122,
+      "unreachableBuildings": [],
+      "furnishedInteriors": 5,
+      "palaceLoaded": true
+    },
+    "nearbyDoor": null,
+    "insideBuilding": null
+  }
+}

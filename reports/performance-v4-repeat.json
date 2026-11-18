@@ -1,0 +1,898 @@
+{
+  "capturedAt": "2026-11-17T12:48:26.604Z",
+  "url": "http://127.0.0.1:5175/",
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "deviceScaleFactor": 1,
+  "sampleDurationMs": 3300,
+  "browser": "157.0.8103.79",
+  "note": "One headless Chrome, GPU ANGLE D3D11. Local measurements are not cross-device guarantees.",
+  "scenarios": [
+    {
+      "name": "overview",
+      "durationMs": 3302.7000000014905,
+      "frames": 163,
+      "averageFPS": 49.35355920910965,
+      "frameTimeMs": {
+        "p50": 20.80000000000109,
+        "p95": 21,
+        "maximum": 27.899999999999636,
+        "over33": 0,
+        "over50": 0
+      },
+      "renderer": {
+        "callsP50": 284,
+        "callsMax": 284,
+        "trianglesP50": 598672,
+        "trianglesMax": 598672
+      },
+      "cpuLongTasks": {
+        "count": 0,
+        "totalMs": 0,
+        "maximumMs": 0,
+        "entries": []
+      },
+      "snapshot": {
+        "ready": true,
+        "mode": "overview",
+        "location": "overview",
+        "transitioning": false,
+        "position": [
+          242.0000000000001,
+          195.00000000000006,
+          284.99999999999994
+        ],
+        "target": [
+          0,
+          0,
+          -27
+        ],
+        "renderer": {
+          "calls": 284,
+          "triangles": 598672,
+          "frame": 384
+        },
+        "fps": 48,
+        "time": 0.42,
+        "pixelRatio": 1,
+        "asset": {
+          "buildings": 128,
+          "totalBuildings": 128,
+          "enterableBuildings": 123,
+          "courtyardGates": 66,
+          "doors": 188,
+          "residents": 60,
+          "residentBatches": 19,
+          "residentArchetypes": [
+            "行商",
+            "书生",
+            "坊民",
+            "襦裙女子",
+            "挑夫",
+            "孩童"
+          ],
+          "staticInstances": 15869,
+          "staticBatches": 273,
+          "palaceSource": "blender-glb",
+          "groundTiles": 240,
+          "overlappingRoadTiles": 0,
+          "interiorTypes": 6,
+          "garden": {
+            "bridgeLength": 62,
+            "bridgeWidth": 6.2,
+            "galleryLength": 119,
+            "pavilions": 2,
+            "blossomTrees": 12,
+            "lilyPads": 40,
+            "bridgePosts": 50,
+            "galleryBays": 24,
+            "waterObstacles": 92
+          },
+          "reachableBuildings": 123,
+          "reachableOrdinaryBuildings": 122,
+          "unreachableBuildings": [],
+          "furnishedInteriors": 0,
+          "prewarmedInteriorTemplates": 33,
+          "palaceLOD": "low",
+          "palaceLowLoaded": true,
+          "palaceLoaded": true,
+          "palaceFloor": 9,
+          "palaceHeight": 36.2,
+          "palaceHighTriangles": 110626,
+          "palaceLowTriangles": 24746,
+          "palaceHighMeshes": 13,
+          "palaceLowMeshes": 13,
+          "palaceShadowTriangles": 24746,
+          "interiorsPrewarmed": true,
+          "interiorGeometryGPUWarmed": true
+        },
+        "nearbyDoor": null,
+        "insideBuilding": null
+      }
+    },
+    {
+      "name": "market",
+      "durationMs": 3302.3000000044703,
+      "frames": 182,
+      "averageFPS": 55.113102988751365,
+      "frameTimeMs": {
+        "p50": 20.700000000000728,
+        "p95": 20.900000000001455,
+        "maximum": 27.899999999999636,
+        "over33": 0,
+        "over50": 0
+      },
+      "renderer": {
+        "callsP50": 270,
+        "callsMax": 270,
+        "trianglesP50": 644302,
+        "trianglesMax": 647462
+      },
+      "cpuLongTasks": {
+        "count": 0,
+        "totalMs": 0,
+        "maximumMs": 0,
+        "entries": []
+      },
+      "snapshot": {
+        "ready": true,
+        "mode": "walk",
+        "location": "market",
+        "transitioning": false,
+        "position": [
+          0,
+          1.7599999999999998,
+          100
+        ],
+        "target": [
+          0,
+          1.8004320275993497,
+          99.0008177087517
+        ],
+        "renderer": {
+          "calls": 270,
+          "triangles": 647462,
+          "frame": 604
+        },
+        "fps": 54,
+        "time": 0.42,
+        "pixelRatio": 1,
+        "asset": {
+          "buildings": 128,
+          "totalBuildings": 128,
+          "enterableBuildings": 123,
+          "courtyardGates": 66,
+          "doors": 188,
+          "residents": 60,
+          "residentBatches": 19,
+          "residentArchetypes": [
+            "行商",
+            "书生",
+            "坊民",
+            "襦裙女子",
+            "挑夫",
+            "孩童"
+          ],
+          "staticInstances": 15869,
+          "staticBatches": 273,
+          "palaceSource": "blender-glb",
+          "groundTiles": 240,
+          "overlappingRoadTiles": 0,
+          "interiorTypes": 6,
+          "garden": {
+            "bridgeLength": 62,
+            "bridgeWidth": 6.2,
+            "galleryLength": 119,
+            "pavilions": 2,
+            "blossomTrees": 12,
+            "lilyPads": 40,
+            "bridgePosts": 50,
+            "galleryBays": 24,
+            "waterObstacles": 92
+          },
+          "reachableBuildings": 123,
+          "reachableOrdinaryBuildings": 122,
+          "unreachableBuildings": [],
+          "furnishedInteriors": 0,
+          "prewarmedInteriorTemplates": 33,
+          "palaceLOD": "low",
+          "palaceLowLoaded": true,
+          "palaceLoaded": true,
+          "palaceFloor": 9,
+          "palaceHeight": 36.2,
+          "palaceHighTriangles": 110626,
+          "palaceLowTriangles": 24746,
+          "palaceHighMeshes": 13,
+          "palaceLowMeshes": 13,
+          "palaceShadowTriangles": 24746,
+          "interiorsPrewarmed": true,
+          "interiorGeometryGPUWarmed": true
+        },
+        "nearbyDoor": null,
+        "insideBuilding": null
+      }
+    },
+    {
+      "name": "tea-first-open-and-enter",
+      "durationMs": 3304.4000000059605,
+      "frames": 227,
+      "averageFPS": 68.69628374276435,
+      "frameTimeMs": {
+        "p50": 13.900000000001455,
+        "p95": 20.799999999999272,
+        "maximum": 34.69999999999891,
+        "over33": 1,
+        "over50": 0
+      },
+      "renderer": {
+        "callsP50": 104,
+        "callsMax": 128,
+        "trianglesP50": 239210,
+        "trianglesMax": 297074
+      },
+      "cpuLongTasks": {
+        "count": 0,
+        "totalMs": 0,
+        "maximumMs": 0,
+        "entries": []
+      },
+      "snapshot": {
+        "ready": true,
+        "mode": "walk",
+        "location": "market",
+        "transitioning": false,
+        "position": [
+          -19.5175,
+          2.13,
+          115
+        ],
+        "target": [
+          -20.5166822912483,
+          2.17043202759935,
+          115
+        ],
+        "renderer": {
+          "calls": 104,
+          "triangles": 239210,
+          "frame": 831
+        },
+        "fps": 69,
+        "time": 0.42,
+        "pixelRatio": 1,
+        "asset": {
+          "buildings": 128,
+          "totalBuildings": 128,
+          "enterableBuildings": 123,
+          "courtyardGates": 66,
+          "doors": 188,
+          "residents": 60,
+          "residentBatches": 19,
+          "residentArchetypes": [
+            "行商",
+            "书生",
+            "坊民",
+            "襦裙女子",
+            "挑夫",
+            "孩童"
+          ],
+          "staticInstances": 15869,
+          "staticBatches": 273,
+          "palaceSource": "blender-glb",
+          "groundTiles": 240,
+          "overlappingRoadTiles": 0,
+          "interiorTypes": 6,
+          "garden": {
+            "bridgeLength": 62,
+            "bridgeWidth": 6.2,
+            "galleryLength": 119,
+            "pavilions": 2,
+            "blossomTrees": 12,
+            "lilyPads": 40,
+            "bridgePosts": 50,
+            "galleryBays": 24,
+            "waterObstacles": 92
+          },
+          "reachableBuildings": 123,
+          "reachableOrdinaryBuildings": 122,
+          "unreachableBuildings": [],
+          "furnishedInteriors": 1,
+          "prewarmedInteriorTemplates": 33,
+          "palaceLOD": "low",
+          "palaceLowLoaded": true,
+          "palaceLoaded": true,
+          "palaceFloor": 9,
+          "palaceHeight": 36.2,
+          "palaceHighTriangles": 110626,
+          "palaceLowTriangles": 24746,
+          "palaceHighMeshes": 13,
+          "palaceLowMeshes": 13,
+          "palaceShadowTriangles": 24746,
+          "interiorsPrewarmed": true,
+          "interiorGeometryGPUWarmed": true
+        },
+        "nearbyDoor": {
+          "id": "building-001-door",
+          "label": "春和茶肆",
+          "open": true,
+          "angle": 1.5393804002589986,
+          "position": [
+            -19.1,
+            1.7799999999999998,
+            115
+          ],
+          "kind": "shop"
+        },
+        "insideBuilding": {
+          "id": "building-001",
+          "label": "春和茶肆",
+          "type": "tea",
+          "doorId": "building-001-door"
+        }
+      }
+    },
+    {
+      "name": "tea-repeat-open-and-enter",
+      "durationMs": 3313.6000000029817,
+      "frames": 224,
+      "averageFPS": 67.60019314334815,
+      "frameTimeMs": {
+        "p50": 13.900000000001455,
+        "p95": 20.80000000000291,
+        "maximum": 21,
+        "over33": 0,
+        "over50": 0
+      },
+      "renderer": {
+        "callsP50": 104,
+        "callsMax": 106,
+        "trianglesP50": 239210,
+        "trianglesMax": 239258
+      },
+      "cpuLongTasks": {
+        "count": 0,
+        "totalMs": 0,
+        "maximumMs": 0,
+        "entries": []
+      },
+      "snapshot": {
+        "ready": true,
+        "mode": "walk",
+        "location": "market",
+        "transitioning": false,
+        "position": [
+          -19.73275000002236,
+          2.13,
+          115
+        ],
+        "target": [
+          -20.731932291270663,
+          2.17043202759935,
+          115
+        ],
+        "renderer": {
+          "calls": 104,
+          "triangles": 239210,
+          "frame": 1093
+        },
+        "fps": 70,
+        "time": 0.42,
+        "pixelRatio": 1,
+        "asset": {
+          "buildings": 128,
+          "totalBuildings": 128,
+          "enterableBuildings": 123,
+          "courtyardGates": 66,
+          "doors": 188,
+          "residents": 60,
+          "residentBatches": 19,
+          "residentArchetypes": [
+            "行商",
+            "书生",
+            "坊民",
+            "襦裙女子",
+            "挑夫",
+            "孩童"
+          ],
+          "staticInstances": 15869,
+          "staticBatches": 273,
+          "palaceSource": "blender-glb",
+          "groundTiles": 240,
+          "overlappingRoadTiles": 0,
+          "interiorTypes": 6,
+          "garden": {
+            "bridgeLength": 62,
+            "bridgeWidth": 6.2,
+            "galleryLength": 119,
+            "pavilions": 2,
+            "blossomTrees": 12,
+            "lilyPads": 40,
+            "bridgePosts": 50,
+            "galleryBays": 24,
+            "waterObstacles": 92
+          },
+          "reachableBuildings": 123,
+          "reachableOrdinaryBuildings": 122,
+          "unreachableBuildings": [],
+          "furnishedInteriors": 1,
+          "prewarmedInteriorTemplates": 33,
+          "palaceLOD": "low",
+          "palaceLowLoaded": true,
+          "palaceLoaded": true,
+          "palaceFloor": 9,
+          "palaceHeight": 36.2,
+          "palaceHighTriangles": 110626,
+          "palaceLowTriangles": 24746,
+          "palaceHighMeshes": 13,
+          "palaceLowMeshes": 13,
+          "palaceShadowTriangles": 24746,
+          "interiorsPrewarmed": true,
+          "interiorGeometryGPUWarmed": true
+        },
+        "nearbyDoor": {
+          "id": "building-001-door",
+          "label": "春和茶肆",
+          "open": true,
+          "angle": 1.5393804002589986,
+          "position": [
+            -19.1,
+            1.7799999999999998,
+            115
+          ],
+          "kind": "shop"
+        },
+        "insideBuilding": {
+          "id": "building-001",
+          "label": "春和茶肆",
+          "type": "tea",
+          "doorId": "building-001-door"
+        }
+      }
+    },
+    {
+      "name": "palace",
+      "durationMs": 3315.000000005959,
+      "frames": 188,
+      "averageFPS": 56.711915535343,
+      "frameTimeMs": {
+        "p50": 20.69999999999709,
+        "p95": 20.900000000001455,
+        "maximum": 34.70000000000073,
+        "over33": 2,
+        "over50": 0
+      },
+      "renderer": {
+        "callsP50": 125,
+        "callsMax": 125,
+        "trianglesP50": 430978,
+        "trianglesMax": 430978
+      },
+      "cpuLongTasks": {
+        "count": 0,
+        "totalMs": 0,
+        "maximumMs": 0,
+        "entries": []
+      },
+      "snapshot": {
+        "ready": true,
+        "mode": "walk",
+        "location": "palace",
+        "transitioning": false,
+        "position": [
+          0,
+          1.7600000000000002,
+          -76
+        ],
+        "target": [
+          0,
+          1.999488471308603,
+          -76.97089920800785
+        ],
+        "renderer": {
+          "calls": 125,
+          "triangles": 430978,
+          "frame": 1350
+        },
+        "fps": 59,
+        "time": 0.42,
+        "pixelRatio": 1,
+        "asset": {
+          "buildings": 128,
+          "totalBuildings": 128,
+          "enterableBuildings": 123,
+          "courtyardGates": 66,
+          "doors": 188,
+          "residents": 60,
+          "residentBatches": 19,
+          "residentArchetypes": [
+            "行商",
+            "书生",
+            "坊民",
+            "襦裙女子",
+            "挑夫",
+            "孩童"
+          ],
+          "staticInstances": 15869,
+          "staticBatches": 273,
+          "palaceSource": "blender-glb",
+          "groundTiles": 240,
+          "overlappingRoadTiles": 0,
+          "interiorTypes": 6,
+          "garden": {
+            "bridgeLength": 62,
+            "bridgeWidth": 6.2,
+            "galleryLength": 119,
+            "pavilions": 2,
+            "blossomTrees": 12,
+            "lilyPads": 40,
+            "bridgePosts": 50,
+            "galleryBays": 24,
+            "waterObstacles": 92
+          },
+          "reachableBuildings": 123,
+          "reachableOrdinaryBuildings": 122,
+          "unreachableBuildings": [],
+          "furnishedInteriors": 1,
+          "prewarmedInteriorTemplates": 33,
+          "palaceLOD": "high",
+          "palaceLowLoaded": true,
+          "palaceLoaded": true,
+          "palaceFloor": 9,
+          "palaceHeight": 36.2,
+          "palaceHighTriangles": 110626,
+          "palaceLowTriangles": 24746,
+          "palaceHighMeshes": 13,
+          "palaceLowMeshes": 13,
+          "palaceShadowTriangles": 24746,
+          "interiorsPrewarmed": true,
+          "interiorGeometryGPUWarmed": true
+        },
+        "nearbyDoor": null,
+        "insideBuilding": null
+      }
+    },
+    {
+      "name": "interior",
+      "durationMs": 3317.000000005959,
+      "frames": 129,
+      "averageFPS": 38.89056376236607,
+      "frameTimeMs": {
+        "p50": 27.700000000000728,
+        "p95": 27.900000000001455,
+        "maximum": 34.79999999999927,
+        "over33": 5,
+        "over50": 0
+      },
+      "renderer": {
+        "callsP50": 77,
+        "callsMax": 77,
+        "trianglesP50": 273544,
+        "trianglesMax": 273544
+      },
+      "cpuLongTasks": {
+        "count": 0,
+        "totalMs": 0,
+        "maximumMs": 0,
+        "entries": []
+      },
+      "snapshot": {
+        "ready": true,
+        "mode": "walk",
+        "location": "interior",
+        "transitioning": false,
+        "position": [
+          0,
+          10.68,
+          -146
+        ],
+        "target": [
+          0,
+          10.80120504113635,
+          -146.99262749206494
+        ],
+        "renderer": {
+          "calls": 77,
+          "triangles": 273544,
+          "frame": 1535
+        },
+        "fps": 39,
+        "time": 0.42,
+        "pixelRatio": 1,
+        "asset": {
+          "buildings": 128,
+          "totalBuildings": 128,
+          "enterableBuildings": 123,
+          "courtyardGates": 66,
+          "doors": 188,
+          "residents": 60,
+          "residentBatches": 19,
+          "residentArchetypes": [
+            "行商",
+            "书生",
+            "坊民",
+            "襦裙女子",
+            "挑夫",
+            "孩童"
+          ],
+          "staticInstances": 15869,
+          "staticBatches": 273,
+          "palaceSource": "blender-glb",
+          "groundTiles": 240,
+          "overlappingRoadTiles": 0,
+          "interiorTypes": 6,
+          "garden": {
+            "bridgeLength": 62,
+            "bridgeWidth": 6.2,
+            "galleryLength": 119,
+            "pavilions": 2,
+            "blossomTrees": 12,
+            "lilyPads": 40,
+            "bridgePosts": 50,
+            "galleryBays": 24,
+            "waterObstacles": 92
+          },
+          "reachableBuildings": 123,
+          "reachableOrdinaryBuildings": 122,
+          "unreachableBuildings": [],
+          "furnishedInteriors": 1,
+          "prewarmedInteriorTemplates": 33,
+          "palaceLOD": "high",
+          "palaceLowLoaded": true,
+          "palaceLoaded": true,
+          "palaceFloor": 9,
+          "palaceHeight": 36.2,
+          "palaceHighTriangles": 110626,
+          "palaceLowTriangles": 24746,
+          "palaceHighMeshes": 13,
+          "palaceLowMeshes": 13,
+          "palaceShadowTriangles": 24746,
+          "interiorsPrewarmed": true,
+          "interiorGeometryGPUWarmed": true
+        },
+        "nearbyDoor": null,
+        "insideBuilding": {
+          "id": "palace-hall",
+          "label": "含元殿",
+          "type": "palace",
+          "doorId": null
+        }
+      }
+    },
+    {
+      "name": "garden-entry",
+      "durationMs": 3313.9000000000015,
+      "frames": 220,
+      "averageFPS": 66.38703642234222,
+      "frameTimeMs": {
+        "p50": 13.900000000001455,
+        "p95": 20.80000000000291,
+        "maximum": 34.69999999999709,
+        "over33": 1,
+        "over50": 0
+      },
+      "renderer": {
+        "callsP50": 89,
+        "callsMax": 89,
+        "trianglesP50": 256626,
+        "trianglesMax": 256626
+      },
+      "cpuLongTasks": {
+        "count": 0,
+        "totalMs": 0,
+        "maximumMs": 0,
+        "entries": []
+      },
+      "snapshot": {
+        "ready": true,
+        "mode": "walk",
+        "location": "garden",
+        "transitioning": false,
+        "position": [
+          117,
+          1.7599999999999998,
+          -85.5
+        ],
+        "target": [
+          117.33830885749366,
+          1.8350430556622297,
+          -86.43803819577788
+        ],
+        "renderer": {
+          "calls": 89,
+          "triangles": 256626,
+          "frame": 1841
+        },
+        "fps": 65,
+        "time": 0.42,
+        "pixelRatio": 1,
+        "asset": {
+          "buildings": 128,
+          "totalBuildings": 128,
+          "enterableBuildings": 123,
+          "courtyardGates": 66,
+          "doors": 188,
+          "residents": 60,
+          "residentBatches": 19,
+          "residentArchetypes": [
+            "行商",
+            "书生",
+            "坊民",
+            "襦裙女子",
+            "挑夫",
+            "孩童"
+          ],
+          "staticInstances": 15869,
+          "staticBatches": 273,
+          "palaceSource": "blender-glb",
+          "groundTiles": 240,
+          "overlappingRoadTiles": 0,
+          "interiorTypes": 6,
+          "garden": {
+            "bridgeLength": 62,
+            "bridgeWidth": 6.2,
+            "galleryLength": 119,
+            "pavilions": 2,
+            "blossomTrees": 12,
+            "lilyPads": 40,
+            "bridgePosts": 50,
+            "galleryBays": 24,
+            "waterObstacles": 92
+          },
+          "reachableBuildings": 123,
+          "reachableOrdinaryBuildings": 122,
+          "unreachableBuildings": [],
+          "furnishedInteriors": 3,
+          "prewarmedInteriorTemplates": 33,
+          "palaceLOD": "high",
+          "palaceLowLoaded": true,
+          "palaceLoaded": true,
+          "palaceFloor": 9,
+          "palaceHeight": 36.2,
+          "palaceHighTriangles": 110626,
+          "palaceLowTriangles": 24746,
+          "palaceHighMeshes": 13,
+          "palaceLowMeshes": 13,
+          "palaceShadowTriangles": 24746,
+          "interiorsPrewarmed": true,
+          "interiorGeometryGPUWarmed": true
+        },
+        "nearbyDoor": null,
+        "insideBuilding": null
+      }
+    },
+    {
+      "name": "garden-bridge",
+      "durationMs": 3306.0000000044674,
+      "frames": 235,
+      "averageFPS": 71.08287961272912,
+      "frameTimeMs": {
+        "p50": 13.900000000001455,
+        "p95": 20.80000000000291,
+        "maximum": 34.599999999998545,
+        "over33": 1,
+        "over50": 0
+      },
+      "renderer": {
+        "callsP50": 85,
+        "callsMax": 85,
+        "trianglesP50": 253786,
+        "trianglesMax": 253786
+      },
+      "cpuLongTasks": {
+        "count": 0,
+        "totalMs": 0,
+        "maximumMs": 0,
+        "entries": []
+      },
+      "snapshot": {
+        "ready": true,
+        "mode": "walk",
+        "location": "garden",
+        "transitioning": false,
+        "position": [
+          128,
+          4.595650364203954,
+          -116
+        ],
+        "target": [
+          128,
+          4.6706934198661845,
+          -116.99718029452896
+        ],
+        "renderer": {
+          "calls": 85,
+          "triangles": 253786,
+          "frame": 2113
+        },
+        "fps": 70,
+        "time": 0.42,
+        "pixelRatio": 1,
+        "asset": {
+          "buildings": 128,
+          "totalBuildings": 128,
+          "enterableBuildings": 123,
+          "courtyardGates": 66,
+          "doors": 188,
+          "residents": 60,
+          "residentBatches": 19,
+          "residentArchetypes": [
+            "行商",
+            "书生",
+            "坊民",
+            "襦裙女子",
+            "挑夫",
+            "孩童"
+          ],
+          "staticInstances": 15869,
+          "staticBatches": 273,
+          "palaceSource": "blender-glb",
+          "groundTiles": 240,
+          "overlappingRoadTiles": 0,
+          "interiorTypes": 6,
+          "garden": {
+            "bridgeLength": 62,
+            "bridgeWidth": 6.2,
+            "galleryLength": 119,
+            "pavilions": 2,
+            "blossomTrees": 12,
+            "lilyPads": 40,
+            "bridgePosts": 50,
+            "galleryBays": 24,
+            "waterObstacles": 92
+          },
+          "reachableBuildings": 123,
+          "reachableOrdinaryBuildings": 122,
+          "unreachableBuildings": [],
+          "furnishedInteriors": 3,
+          "prewarmedInteriorTemplates": 33,
+          "palaceLOD": "high",
+          "palaceLowLoaded": true,
+          "palaceLoaded": true,
+          "palaceFloor": 9,
+          "palaceHeight": 36.2,
+          "palaceHighTriangles": 110626,
+          "palaceLowTriangles": 24746,
+          "palaceHighMeshes": 13,
+          "palaceLowMeshes": 13,
+          "palaceShadowTriangles": 24746,
+          "interiorsPrewarmed": true,
+          "interiorGeometryGPUWarmed": true
+        },
+        "nearbyDoor": null,
+        "insideBuilding": null
+      }
+    }
+  ],
+  "errors": [],
+  "startup": {
+    "readyMs": 7010,
+    "longTasks": [
+      {
+        "startTime": 182.79999999701977,
+        "duration": 540
+      },
+      {
+        "startTime": 723.1999999955297,
+        "duration": 2514
+      },
+      {
+        "startTime": 3472.1999999955297,
+        "duration": 51
+      },
+      {
+        "startTime": 4516.19999999553,
+        "duration": 104
+      },
+      {
+        "startTime": 6040.0999999940395,
+        "duration": 961
+      }
+    ]
+  },
+  "gpu": {
+    "renderer": "ANGLE (AMD, AMD Radeon(TM) Graphics (0x00001636) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "vendor": "Google Inc. (AMD)",
+    "pixelRatio": 1
+  }
+}

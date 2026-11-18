@@ -1,0 +1,130 @@
+{
+  "capturedAt": "2026-11-17T09:45:48.825Z",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "errors": [],
+  "views": {
+    "overview": {
+      "mode": "overview",
+      "location": "overview",
+      "position": [
+        242,
+        195.00000000000003,
+        285
+      ],
+      "target": [
+        0,
+        0,
+        -27
+      ],
+      "lod": "low",
+      "palaceSource": "blender-glb",
+      "palaceHighTriangles": 110626,
+      "palaceLowTriangles": 24746,
+      "palaceShadowTriangles": 24746,
+      "renderer": {
+        "calls": 281,
+        "triangles": 558899,
+        "frame": 233
+      }
+    },
+    "market": {
+      "mode": "walk",
+      "location": "market",
+      "position": [
+        0,
+        1.7600000000000002,
+        100
+      ],
+      "target": [
+        0,
+        1.8004320275993502,
+        99.0008177087517
+      ],
+      "lod": "low",
+      "palaceSource": "blender-glb",
+      "palaceHighTriangles": 110626,
+      "palaceLowTriangles": 24746,
+      "palaceShadowTriangles": 24746,
+      "renderer": {
+        "calls": 243,
+        "triangles": 549481,
+        "frame": 303
+      }
+    },
+    "palace-frontal": {
+      "mode": "walk",
+      "location": "palace",
+      "position": [
+        0,
+        1.7599999999999998,
+        -76
+      ],
+      "target": [
+        0,
+        1.9994884713086025,
+        -76.97089920800785
+      ],
+      "lod": "high",
+      "palaceSource": "blender-glb",
+      "palaceHighTriangles": 110626,
+      "palaceLowTriangles": 24746,
+      "palaceShadowTriangles": 24746,
+      "renderer": {
+        "calls": 124,
+        "triangles": 400208,
+        "frame": 370
+      }
+    },
+    "palace-stairs": {
+      "mode": "walk",
+      "location": "palace",
+      "position": [
+        6.2,
+        3.3466666666666667,
+        -90
+      ],
+      "target": [
+        6.2,
+        3.5861551379752696,
+        -90.97089920800785
+      ],
+      "lod": "high",
+      "palaceSource": "blender-glb",
+      "palaceHighTriangles": 110626,
+      "palaceLowTriangles": 24746,
+      "palaceShadowTriangles": 24746,
+      "renderer": {
+        "calls": 115,
+        "triangles": 378758,
+        "frame": 397
+      }
+    },
+    "palace-interior": {
+      "mode": "walk",
+      "location": "interior",
+      "position": [
+        0,
+        10.68,
+        -146
+      ],
+      "target": [
+        0,
+        10.80120504113635,
+        -146.99262749206494
+      ],
+      "lod": "high",
+      "palaceSource": "blender-glb",
+      "palaceHighTriangles": 110626,
+      "palaceLowTriangles": 24746,
+      "palaceShadowTriangles": 24746,
+      "renderer": {
+        "calls": 75,
+        "triangles": 247488,
+        "frame": 464
+      }
+    }
+  }
+}

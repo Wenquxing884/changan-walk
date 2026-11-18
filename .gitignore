@@ -1,0 +1,24 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+.npm-cache/
+.tmp/
+.recovery/
+*.log
+*.blend1
+*.blend2
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+
+# Non-Chang'an assets accidentally present in the working copy
+public/assets/qingxiu/
+public/assets/qingxiu-heroes.glb
+assets-source/qingxiu-pbr/
+assets-source/build_qingxiu_heroes.py
+assets-source/build_palace-v2.py
+assets-source/palace-v2.blend
+

@@ -1,0 +1,40 @@
+{
+  "errors": [],
+  "views": [
+    {
+      "degrees": 0,
+      "difference": {
+        "changed": 20281,
+        "max": 48
+      }
+    },
+    {
+      "degrees": 45,
+      "difference": {
+        "changed": 0,
+        "max": 0
+      }
+    },
+    {
+      "degrees": 88,
+      "difference": {
+        "changed": 0,
+        "max": 0
+      }
+    },
+    {
+      "degrees": 90,
+      "difference": {
+        "changed": 0,
+        "max": 0
+      }
+    },
+    {
+      "degrees": 91.8,
+      "difference": {
+        "changed": 0,
+        "max": 0
+      }
+    }
+  ]
+}
